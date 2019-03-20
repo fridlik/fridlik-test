@@ -4,4 +4,4 @@ variables:
 job:
   script:
     - echo "$(date)"
-    - git log
+    - /usr/bin/git log
